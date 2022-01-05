@@ -4,18 +4,33 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <h1 className='heading'>My First React App!</h1>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
+      <nav className='navbar'>
+        <div className='logo-container'>Logo</div>
+        <div className='nav-links'>
+          <ul>
+            <a href='#'>
+              <li className='nav-item'>Home</li>
+            </a>
+            <a href='#'>
+              <li className='nav-item'>About</li>
+            </a>
+            <a href='#'>
+              <li className='nav-item'>Contact</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+      <section className='hero-section'>
+        <div className='hero-container'>
+          <div className='hero-text'>
+            <h2>Bryon Verdone</h2>
+            <p>Front-End Web Developer</p>
+          </div>
+          <div className='hero-img'>
+            <img className='hero-img' src='./photos/logo192.png' alt='' />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
