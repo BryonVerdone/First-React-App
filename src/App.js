@@ -20,17 +20,50 @@ function App() {
           </ul>
         </div>
       </nav>
-      <section className='hero-section'>
-        <div className='hero-container'>
-          <div className='hero-text'>
-            <h2>Bryon Verdone</h2>
-            <p>Front-End Web Developer</p>
+      <div className='container'>
+        <section className='hero-section'>
+          <div className='hero-container'>
+            <div className='hero-text'>
+              <h2>Bryon Verdone</h2>
+              <p>Front-End Web Developer</p>
+              <button className='btn'>Hire Me</button>
+            </div>
+            <div className='hero-img'>
+              <img
+                className='hero-img'
+                src='./photos/bryon_react_img.png'
+                alt=''
+              />
+            </div>
           </div>
-          <div className='hero-img'>
-            <img className='hero-img' src='./photos/logo192.png' alt='' />
+        </section>
+        <section className='tech-section'>
+          <h1 className='section-heading'>Tech I Use</h1>
+          <div className='tech-container'>
+            <div className='tech-img-container'>
+              <img src='./photos/HTML5.png' alt='' />
+            </div>
+            <div className='tech-img-container'>
+              <img src='./photos/CSS.png' alt='' />
+            </div>
+            <div className='tech-img-container'>
+              <img src='./photos/JS.png' alt='' />
+            </div>
+            <div className='tech-img-container'>
+              <img src='./photos/Bootstrap.png' alt='' />
+            </div>
+            <div className='tech-img-container'>
+              <img src='./photos/logo192.png' alt='' />
+            </div>
+            <div className='tech-img-container'>
+              <img src='./photos/Git-Icon.png' alt='' />
+            </div>
+            <div className='tech-img-container'>
+              <img src='./photos/github_logo.png' alt='' />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
   );
 }
