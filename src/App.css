@@ -32,6 +32,10 @@ a {
 .nav-item {
   padding: 10px;
 }
+.section-heading {
+  text-align: center;
+  font-size: 2rem;
+}
 /* 
 ==========
 Hero Section
@@ -89,4 +93,20 @@ Tech Section
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 3rem;
+}
+/* 
+==========
+Services Section
+==========
+*/
+.services-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 2rem;
+  margin: 0 2rem;
+}
+.services-card {
+  padding: 1rem;
+  border: 3px solid black;
 }

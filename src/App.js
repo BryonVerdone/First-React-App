@@ -63,6 +63,39 @@ function App() {
             </div>
           </div>
         </section>
+        <section className='services-section'>
+          <h1 className='section-heading'>Services</h1>
+          <div className='services-container'>
+            <div className='services-card'>
+              <h4>Web Development</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+                delectus magni nulla deserunt facere repellat!
+              </p>
+            </div>
+            <div className='services-card'>
+              <h4>Web Development</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+                delectus magni nulla deserunt facere repellat!
+              </p>
+            </div>
+            <div className='services-card'>
+              <h4>Web Development</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+                delectus magni nulla deserunt facere repellat!
+              </p>
+            </div>
+            <div className='services-card'>
+              <h4>Web Development</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+                delectus magni nulla deserunt facere repellat!
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
