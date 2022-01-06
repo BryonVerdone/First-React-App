@@ -15,6 +15,9 @@ function App() {
               <li className='nav-item'>About</li>
             </a>
             <a href='#'>
+              <li className='nav-item'>Services</li>
+            </a>
+            <a href='#'>
               <li className='nav-item'>Contact</li>
             </a>
           </ul>
@@ -26,7 +29,7 @@ function App() {
             <div className='hero-text'>
               <h2>Bryon Verdone</h2>
               <p>Front-End Web Developer</p>
-              <button className='btn'>Hire Me</button>
+              <button className='btn'>Let's Connect</button>
             </div>
             <div className='hero-img'>
               <img
@@ -74,7 +77,7 @@ function App() {
               </p>
             </div>
             <div className='services-card'>
-              <h4>Web Development</h4>
+              <h4>UX/UI Design</h4>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
                 delectus magni nulla deserunt facere repellat!
