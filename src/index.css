@@ -7,3 +7,16 @@
   display: grid;
   place-items: center;
 }
+.card-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-center img {
+  border-radius: 30px;
+  transition: 300ms;
+}
+.card-center img:hover {
+  box-shadow: 5px 5px 15px 5px #000000;
+}
